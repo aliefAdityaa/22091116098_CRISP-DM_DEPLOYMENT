@@ -112,7 +112,7 @@ def show_hubungan(df):
     
 
 # Memuat data
-# df = load_data()
+df = pd.read_csv("datmin/TravelInsurancePrediction.csv")
 
 # Menampilkan hubungan
 # show_relationship(df)
@@ -191,11 +191,8 @@ def predict_cancellation(df):
         else:
             st.write('Tidak dapat')
 
-
-
-
-# # Memuat data
-# df = load_data()
+# Memuat data
+df = pd.read_csv("datmin/TravelInsurancePrediction.csv")
 
 # Mengatur sidebar
 df2 = pd.read_csv('datmin/Data Cleaned.csv')
