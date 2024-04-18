@@ -194,8 +194,8 @@ def predict_cancellation(df):
 
 
 
-# Memuat data
-df = load_data()
+# # Memuat data
+# df = load_data()
 
 # Mengatur sidebar
 df2 = pd.read_csv('datmin/Data Cleaned.csv')
