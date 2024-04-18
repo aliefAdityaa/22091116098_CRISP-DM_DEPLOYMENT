@@ -112,7 +112,7 @@ def show_hubungan(df):
     
 
 # Memuat data
-df = load_data()
+# df = load_data()
 
 # Menampilkan hubungan
 # show_relationship(df)
